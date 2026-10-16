@@ -1,0 +1,27 @@
+name: post-to-social
+on:
+  schedule:
+    - cron: "30 14 * * 2,4,6"   # Tue, Thu, Sat 14:30 UTC (8:00 pm India, 10:30 am US Eastern). Edit freely.
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: post
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Post next item
+        run: python3 tools/poster.py
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "poster-bot"
+          git config user.email "poster-bot@users.noreply.github.com"
+          git add queue/state.json
+          git diff --cached --quiet || (git commit -m "post state" && git push)

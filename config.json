@@ -1,0 +1,74 @@
+{
+  "author": "Ivy Cassel",
+  "series": "The Kindling Line",
+  "site_url": "https://aliwaziri10.github.io/ivy-cassel-books/",
+  "books": [
+    {
+      "title": "Borrowed Years",
+      "n": 1,
+      "link": "https://a.co/d/015rGBsc",
+      "status": "published",
+      "short": "A slow-burn romantasy about a flight-gift that burns years off your life, and the auditor who decides her house's fate.",
+      "tropes": [
+        "Slow burn",
+        "Forced proximity",
+        "Rival houses",
+        "Magic with a shared cost",
+        "Secrets and hidden injuries",
+        "Public trials and political stakes"
+      ]
+    },
+    {
+      "title": "Keep Me Past the Fire",
+      "n": 2,
+      "link": "https://a.co/d/0c839mM0",
+      "status": "published",
+      "short": "Book 2 of The Kindling Line: a couple already together, a hidden vault, and a hero who protects too much.",
+      "tropes": [
+        "Established couple",
+        "Dual point of view",
+        "Political intrigue",
+        "Protective hero who learns equality",
+        "Magic with a shared cost",
+        "Found family under pressure"
+      ]
+    },
+    {
+      "title": "Count Me Through the Dark",
+      "n": 3,
+      "link": null,
+      "status": "coming-soon",
+      "short": "The final book of The Kindling Line trilogy. Coming soon.",
+      "tropes": [
+        "Series finale",
+        "Slow-burn romantasy"
+      ]
+    }
+  ],
+  "colors": {
+    "bg1": "#2b1210",
+    "bg2": "#7a2e1f",
+    "fg": "#fbf1e4",
+    "muted": "#e3c4a8",
+    "accent": "#f2b36b"
+  },
+  "hashtags": [
+    "#romantasy",
+    "#fantasyromance",
+    "#slowburnromance",
+    "#bookstagram",
+    "#booktok",
+    "#romantasybooks",
+    "#fantasyromancebooks",
+    "#forcedproximity",
+    "#magicwithacost",
+    "#bookrecommendations",
+    "#readersofinstagram",
+    "#kindlereads"
+  ],
+  "questions": [
+    "Slow burn or instant spark? Pick one and defend it.",
+    "Magic that always costs something: love it or hate it?",
+    "Which romantasy trope can you never say no to?"
+  ]
+}
